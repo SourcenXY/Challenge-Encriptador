@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encrypt Challenge</title>
+</head>
+<body>
+    <header>
+        <img src="./img/alura.svg" alt="logo" class="logo">
+    </header>
+    <main>
+        <section class="section1">
+            <div class="containerBoxText">
+                <input type="text" placeholder="Write the text here" class="boxText" id="boxText">
+            </div>
+            <div class="alert">
+                <img src="./img/warning-sign-icon-transparent-background-free-png.webp" alt="alert" class="imgAlert">
+                <p>You can only write minuscule letters and without accent</p>
+            </div>
+            <div class="containerButtons">
+                <button id="buttonEncrypt" class="buttonEncrypt">Encrypt</button>
+                <button id="buttonDecrypt" class="buttonDecrypt">Decrypt</button>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="containerParagraph">
+                <h3>No message was found</h3>
+                <p>Enter the text you want to encrypt or decrypt</p>
+            </div>
+            <div class="containerCopy">
+                <button class="buttonCopy" id="buttonCopy">Copy</button>
+            </div>
+            <div class="containerResult">
+                <p class="textResult" id="result"></p>
+            </div>
+        </section>
+    </main>
+    <script src="encrip.js" defer></script>
+</body>
+</html>
